@@ -1,0 +1,82 @@
+.nv-nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(5rem, auto);
+  background-color: #343A40;
+  position: sticky;
+  top:0;
+  z-index:99;
+}
+.nv-nav-izquierda {
+  grid-row: 1; 
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  justify-items: start;
+  gap: 1rem;
+}
+.nv-logo {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+.nv-item-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nv-nav-derecha {
+  grid-row: 1; 
+  grid-column: 2;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.nv-navbar{
+  display: flex;
+  gap: 1rem;
+}
+
+.nv-a {
+  text-decoration: none;
+  color: white;
+}
+.nv-a:hover {
+  text-decoration: underline;
+}
+.nv-hamburguer {
+  display:none;
+}
+
+.nv-hamburguer span{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #F8F9FA;
+  border-radius: 3px;
+
+}
+
+@media (max-width: 900px){
+  .nv-nav {
+    top:-0.1rem;
+    z-index:99;
+  }
+  .nv-item-logo{
+    display: none;
+  }
+  .nv-navbar{
+    display: none;
+  }
+
+  .nv-hamburguer {
+    display:initial;
+    cursor: pointer;
+  }
+}
+
+

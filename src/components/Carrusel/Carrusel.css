@@ -1,0 +1,11 @@
+.cl-imagen{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+.cl-titulo{
+  font-size: 1.5rem;
+  color: #F8F9FA;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,23 @@
+.ft-container{
+  width: 100%;
+  height: 10rem;
+  border-top: 0.1rem solid #6C757D;
+  background-color: #343A40;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ft-texto{
+  font-size: 1.3rem;
+  color: #E9ECEF;
+  padding: 0 2rem 0 2rem;
+}
+
+@media (max-width: 900px){
+  .ft-container{
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
