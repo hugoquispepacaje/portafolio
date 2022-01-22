@@ -9,3 +9,9 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.cl-boton{
+  margin-top: 1.1rem !important;
+  margin-bottom: 1.1rem !important;
+  color: #F8F9FA !important;
+}

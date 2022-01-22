@@ -1,7 +1,7 @@
 import './Banner.css';
 import { Fragment } from 'react';
 import IdScroll from '../IdScroll/IdScroll';
-import hugo from '../../images/hugo.png';
+import { BannerDummy } from '../../data/banner';
 type BannerProps = {
 
 }
@@ -13,14 +13,14 @@ const Banner: React.FC<BannerProps> = ({}) => {
       <div className="bn-banner">
         <div className="bn-descripcion">
           
-          <h3 className="bn-texto">Hola!!<br/> Soy </h3>
-            <h1 className="bn-title">Hugo Quispe Pacaje</h1>
+          <h3 className="bn-texto">{BannerDummy.saludo}<br/>{BannerDummy.presentacion}</h3>
+            <h1 className="bn-title">{BannerDummy.nombre}</h1>
             <h3 className="bn-texto">
-            Ing. Civil en Computaci&oacute;n e Inform&aacute;tica<br/>
-            Bienvenido a mi Portafolio :D</h3>
+            {BannerDummy.titulo}<br/>
+            {BannerDummy.bienvenida}</h3>
         </div>
         <div className="bn-contenedor-imagen">
-          <img className="bn-imagen" src={hugo} alt="hugo quispe" />
+          <img className="bn-imagen" src={BannerDummy.imagen} alt={BannerDummy.altImagen} />
         </div>
       </div>
     </Fragment>

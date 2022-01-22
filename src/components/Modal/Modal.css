@@ -1,0 +1,42 @@
+.md-modal .p-dialog-footer{
+  background-color: #343A40 !important;
+  text-align: center !important;
+}
+
+.md-modal .p-dialog-content{
+  background-color: #343A40 !important;
+  color: #F8F9FA !important;
+}
+
+.md-modal .p-dialog-header{
+  background-color: #343A40 !important;
+  color: #F8F9FA !important;
+}
+
+.md-boton{
+  color: #F8F9FA !important;
+  margin-top: 1rem !important;
+}
+
+.p-dialog-header-close-icon{
+  color: #F8F9FA !important;
+}
+
+.p-dialog-header-maximize-icon{
+  color: #F8F9FA !important;
+}
+
+.md-subtitulo{
+  margin-top: 1rem;
+  font-weight: lighter;
+}
+.md-content-v2{
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.md-li{
+  margin-bottom: 1rem;
+}
