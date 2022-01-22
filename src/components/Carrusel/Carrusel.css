@@ -18,3 +18,11 @@
 .p-carousel-indicators li { 
   visibility: hidden; 
 }
+
+.p-carousel-prev {
+  color: #E9ECEF !important;
+}
+
+.p-carousel-next {
+  color: #E9ECEF !important;
+}

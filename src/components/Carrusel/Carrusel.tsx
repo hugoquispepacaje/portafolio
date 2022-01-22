@@ -69,6 +69,7 @@ const Carrusel: React.FC<CarruselProps> = ({
       templateSelected=itemsTemplate1;
       break;
   }
+  
   const responsiveOptions = [
     {
         breakpoint: '1000px',
@@ -82,7 +83,6 @@ const Carrusel: React.FC<CarruselProps> = ({
         value={items} 
         numVisible={3} 
         numScroll={1} 
-        circular
         responsiveOptions={responsiveOptions}
         itemTemplate={templateSelected}/>
     </Fragment>
